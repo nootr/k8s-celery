@@ -1,4 +1,7 @@
 #!/usr/bin/env python
 
-from myapp.tasks import add
-add.delay(4, 4)
+from myapp import app
+
+
+if __name__ == '__main__':
+    app.run()
