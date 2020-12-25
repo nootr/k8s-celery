@@ -32,5 +32,5 @@ Finally, start the Flask app:
 
 ```bash
 source venv/bin/activate
-./main.py
+./run_myapp.py
 ```
