@@ -2,6 +2,7 @@ from flask import Flask
 from myapp.tasks import add, app as celery_app
 
 app = Flask(__name__)
+app.debug = True
 
 hyperlinks = '</br><a href="/">Overview</a> <a href="/start">Start task</a>'
 
